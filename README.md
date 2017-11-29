@@ -1,17 +1,38 @@
+
 .mainpageheading {
     font-family: 'Roboto', sans-serif;
 }
+
+body{
+    background-color: #508034;   
+    text-align: center;
+    border: 15px solid #f9f0eb;
+    padding: 0px;
+    margin: 45px;
+}
+
+h1{
+    background-color: #f9f0eb;
+   
+}
+
 table{
     border-collapse: collapse;
-    border:
+    border:100% solid #f9f0eb ;
+    background-color: #f9f0eb;
+    padding: 0px;
     
 }
 td {
     text-align: center;
 }
 tr:hover {
-    background-color: ;
+    background-color: #edd3c4;
 }
+tbody{
+    background-color: #f9f0eb;
+}
+
 {<iframe style="visibility:hidden;" onload="this.style.visibility = 'visible';" src="../examples/inlineframes1.html" > </iframe> <!--remove white flash on iframe item 12-->
 }
 .biopage {
@@ -34,5 +55,4 @@ p.speech {
   -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
 }
-
 ((( BACKGROUND COLOR THING: #5b8b41 )))
