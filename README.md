@@ -1,8 +1,15 @@
-
 .mainpageheading {
     font-family: 'Roboto', sans-serif;
 }
 
+.box{
+    background-color: #f9f0eb;
+    position: absolute;
+    height: 95%;
+    width: 60%;
+    left: 20%;
+    top: 20%;
+}
 body{
     background-color: #508034;   
     text-align: center;
@@ -19,19 +26,36 @@ h1{
 table{
     border-collapse: collapse;
     border:100% solid #f9f0eb ;
-    background-color: #f9f0eb;
+    background-color: #92593B;
     padding: 0px;
     text-align: center;
-    
 }
 td {
     text-align: center;
+    border: 1px solid black;
 }
-tr:hover {
+
+tbody{
+    background-color: #E1AF95;
+}
+td:hover {
     background-color: #edd3c4;
 }
-tbody{
-    background-color: #f9f0eb;
+
+a:link{
+    text-decoration: none;
+    color: #32740b;
+    
+}
+a:visited{
+    
+}
+a:hover{
+    text-decoration: underline;
+    color: #50ba12;
+}
+a:active{
+    
 }
 
 {<iframe style="visibility:hidden;" onload="this.style.visibility = 'visible';" src="../examples/inlineframes1.html" > </iframe> <!--remove white flash on iframe item 12-->
