@@ -13,9 +13,9 @@
 body{
     background-color: #508034;   
     text-align: center;
-    border: 15px solid #f9f0eb;
+    border: 0px solid #f9f0eb;
     padding: 0px;
-    margin: 45px;
+    margin: 20px;
 }
 
 h1{
