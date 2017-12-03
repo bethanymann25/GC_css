@@ -21,6 +21,7 @@ table{
     border:100% solid #f9f0eb ;
     background-color: #f9f0eb;
     padding: 0px;
+    text-align: center;
     
 }
 td {
