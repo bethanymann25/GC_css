@@ -57,12 +57,38 @@ a:hover{
 a:active{
     
 }
-{<iframe style="visibility:hidden;" onload="this.style.visibility = 'visible';" src="../examples/inlineframes1.html" > </iframe> <!--remove white flash on iframe item 12-->
 }
 .biopage {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
+}
+.social {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.social:hover {
+    opacity: 0.7;
+}
+
+.social-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.social-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.social-instagram {
+  background: #125688;
+  color: white;
 }
 p.speech {
   position: relative;
@@ -127,5 +153,4 @@ html {
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
 
