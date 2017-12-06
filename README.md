@@ -159,7 +159,7 @@ p.speech {
   -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
 }
-((( BACKGROUND COLOR THING: #5b8b41 )))
+((( BACKGROUND GREEN COLOR: #5b8b41 )))
 
 
 html {
