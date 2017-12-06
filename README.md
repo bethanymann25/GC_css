@@ -1,3 +1,4 @@
+
 .mainpageheading {
     font-family: 'Roboto', sans-serif;
 }
@@ -10,6 +11,7 @@
     left: 20%;
     top: 20%;
 }
+
 body{
     background-color: #508034;   
     text-align: center;
@@ -17,7 +19,85 @@ body{
     padding: 0px;
     margin: px;
 }
+(function() {
+  var cx = '017643444788069204610:4gvhea_mvga'; // Insert your own Custom Search Engine ID here
+  var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+  gcse.src = (document.location.protocol == 'https' ? 'https:' : 'http:') +
+      '//www.google.com/cse/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})();
 
+@keyframes grow {
+	0% {
+		opacity: 0;
+		transform: scaleY(0.5);
+	}
+	30% {
+		transform: scaleY(1.15);
+	}
+	50% {
+		transform: scaleY(0.9);
+	}
+	70% {
+		transform: scaleY(1.05);
+	}
+	85% {
+		transform: scaleY(0.97);
+	}
+	100% {
+		opacity: 1;
+		transform: scaleY(1);
+	}
+}
+
+@keyframes leaf-left {
+	0% {
+		transform: scale(0.5);
+	}
+	33% {
+		transform: scale(1.1);
+	}
+	66% {
+		transform: scale(0.9);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes leaf-right {
+	0% {
+		transform: scale(0.5);
+	}
+	33% {
+		transform: scale(1.1);
+	}
+	66% {
+		transform: scale(0.9);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.booky {
+	font-family: "Trebuchet MS",Tahoma,sans-serif;
+	color: #36393a;
+	
+	a {
+		text-decoration: none;
+		color: #eb7260;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	
+	img {
+		position: relative;
+		top: 3px;
+	}
+}
 h1{
     background-color: #f9f0eb;
    
@@ -57,38 +137,12 @@ a:hover{
 a:active{
     
 }
+{<iframe style="visibility:hidden;" onload="this.style.visibility = 'visible';" src="../examples/inlineframes1.html" > </iframe> <!--remove white flash on iframe item 12-->
 }
 .biopage {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
-}
-.social {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-.social:hover {
-    opacity: 0.7;
-}
-
-.social-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.social-twitter {
-  background: #55ACEE;
-  color: white;
-}
-.social-instagram {
-  background: #125688;
-  color: white;
 }
 p.speech {
   position: relative;
@@ -153,4 +207,5 @@ html {
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
+
 
